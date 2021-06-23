@@ -113,7 +113,7 @@ class platform(Platformtools):
                                         thumbnail=channelselector.get_thumb("back.png", "banner_")))
             else:
                 itemlist.insert(0, Item(title="Atrás", action="go_back",
-                                        thumbnail=channelselector.get_thumb("back.png", "banner_")))
+                                        thumbnail=channelselector.get_thumb("back.png", "thumb_")))
 
         JsonData = {}
         JsonData["action"] = "EndItems"
