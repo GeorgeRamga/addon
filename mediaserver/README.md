@@ -13,8 +13,10 @@ __**NOTA: Hay un bug con Mediaserver en Firefox de escritorio, por lo que por el
 ## Prerrequisitos:
 ### Servidor
 - Se requiere que esté instalado Python (2.7+ o 3.6+)
-  - Para Windows y varios sistemas puede descargarse [desde aquí](https://www.python.org/downloads/release/python-2718/ "desde aquí")
-  - Para Linux basados en Debian puede instalarse con `sudo apt-get install python3`
+- Para Windows y varios sistemas puede descargarse [desde aquí](https://www.python.org/downloads/release/python-2718/ "desde aquí")
+- Para Linux basados en Debian puede instalarse con `sudo apt-get install python3`
+- Se requiere tener instalada la libreria de Python BeautifulSoup4 (4.9.3 +), se puede instalar mediante pip `pip install BeautifulSoup4`
+
 
 ### Cliente
 - Cualquier dispositivo con un navegador compatible con WebSockets (prácticamente cualquier dispositivo/navegador capaz de cargar YouTube por poner un ejemplo)
