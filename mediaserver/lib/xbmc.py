@@ -58,6 +58,11 @@ class Player(object):
 
 
 class Monitor(object):
+    class Monitor(object):
+        def waitForAbort(time):
+            milisec = float(time) / 1000
+            time.sleep(milisec)
+
     def waitForAbort(time):
         milisec = float(time) / 1000
         time.sleep(milisec)
